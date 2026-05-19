@@ -1,0 +1,18 @@
+@url = http://localhost:3000
+
+### Create a site banner
+POST {{url}}/banner
+Content-Type: application/json
+
+{
+    "message": "Welcome Pikachu"
+}
+
+### Get site banner
+GET {{url}}/banner
+
+### Delete site banner
+DELETE {{url}}/banner
+
+### Check if site banner exists
+GET {{url}}/banner/exists
