@@ -1,0 +1,5 @@
+### Redis Endpoint
+GET http://localhost:3000/redis
+
+### Mongo Endpoint
+GET http://localhost:3000/mongo
