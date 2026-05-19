@@ -1,0 +1,21 @@
+@url=http://localhost:3000
+
+### request otp
+POST {{url}}/otp
+Content-Type: application/json
+
+{
+    "phone": "1234567890"
+}
+
+### verify otp
+POST {{url}}/otp/verify
+Content-Type: application/json
+
+{
+    "phone": "1234567890",
+    "otp": "548773"
+}
+
+### get otp ttl
+GET {{url}}/otp/1234567890/ttl
