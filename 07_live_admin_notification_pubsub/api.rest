@@ -1,0 +1,9 @@
+@url=http://localhost:3000
+
+### send notification
+POST {{url}}/notifications
+Content-Type: application/json
+
+{
+    "title" : "Hello world"
+}
