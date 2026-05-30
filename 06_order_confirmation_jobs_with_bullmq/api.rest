@@ -1,0 +1,11 @@
+@url=http://localhost:3000
+
+### send welcome email
+POST {{url}}/welcome-email
+Content-Type: application/json
+
+{
+    "to": "8dH5d@example.com",
+    "subject": "Hello",
+    "body": "Hello world"
+}
