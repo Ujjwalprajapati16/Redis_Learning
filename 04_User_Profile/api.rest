@@ -1,0 +1,25 @@
+@url=http://localhost:3000
+
+### Create user in json
+POST {{url}}/user/123/json
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "age": 30
+}
+
+### Get all users
+GET {{url}}/user/123/json
+
+### Create user in hash
+POST {{url}}/user/561/hash
+Content-Type: application/json
+
+{
+    "name": "Pikachu",
+    "age": 10
+}
+
+### Get all users
+GET {{url}}/user/561/hash
