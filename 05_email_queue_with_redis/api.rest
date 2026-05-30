@@ -1,0 +1,14 @@
+@url=http://localhost:3000
+
+### add emails in queue
+POST {{url}}/emails
+Content-Type: application/json
+
+{
+    "to": "8dH5d@example.com",
+    "subject": "Hello",
+    "body": "Hello world"
+}
+
+### get emails in queue
+GET {{url}}/emails/process-one
