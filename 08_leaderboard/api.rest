@@ -1,0 +1,16 @@
+@url=http://localhost:3000
+
+### increment score
+POST {{url}}/leaderboard/score
+Content-Type: application/json
+
+{
+    "userId": "damnnn",
+    "score": 8
+}
+
+### get leaderboard
+GET {{url}}/leaderboard
+
+### get rank of user
+GET {{url}}/leaderboard/Pikachu/rank

@@ -1,5 +1,5 @@
 {
-  "name": "07_live_admin_notification_pubsub",
+  "name": "08_leaderboard",
   "version": "1.0.0",
   "private": true,
   "type": "module",
